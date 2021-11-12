@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Eagha\\Desktop\\CodeLessons\\P201\\24 - C# serialization,file\\12112021\\12112021\\12112021.csproj",
+      "projectUniqueName": "C:\\Users\\Eagha\\Desktop\\CodeLessons\\P201\\24 - C# serialization,file\\P201_C-_Serialization\\12112021\\12112021\\12112021.csproj",
       "projectName": "12112021",
-      "projectPath": "C:\\Users\\Eagha\\Desktop\\CodeLessons\\P201\\24 - C# serialization,file\\12112021\\12112021\\12112021.csproj",
+      "projectPath": "C:\\Users\\Eagha\\Desktop\\CodeLessons\\P201\\24 - C# serialization,file\\P201_C-_Serialization\\12112021\\12112021\\12112021.csproj",
       "packagesPath": "C:\\Users\\Eagha\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Eagha\\Desktop\\CodeLessons\\P201\\24 - C# serialization,file\\12112021\\12112021\\obj\\",
+      "outputPath": "C:\\Users\\Eagha\\Desktop\\CodeLessons\\P201\\24 - C# serialization,file\\P201_C-_Serialization\\12112021\\12112021\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

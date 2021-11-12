@@ -12,3 +12,17 @@ C:\Users\Eagha\Desktop\CodeLessons\P201\24 - C# serialization,file\12112021\1211
 C:\Users\Eagha\Desktop\CodeLessons\P201\24 - C# serialization,file\12112021\12112021\obj\Debug\netcoreapp3.1\12112021.dll
 C:\Users\Eagha\Desktop\CodeLessons\P201\24 - C# serialization,file\12112021\12112021\obj\Debug\netcoreapp3.1\12112021.pdb
 C:\Users\Eagha\Desktop\CodeLessons\P201\24 - C# serialization,file\12112021\12112021\obj\Debug\netcoreapp3.1\12112021.genruntimeconfig.cache
+C:\Users\Eagha\Desktop\CodeLessons\P201\24 - C# serialization,file\P201_C-_Serialization\12112021\12112021\bin\Debug\netcoreapp3.1\12112021.exe
+C:\Users\Eagha\Desktop\CodeLessons\P201\24 - C# serialization,file\P201_C-_Serialization\12112021\12112021\bin\Debug\netcoreapp3.1\12112021.deps.json
+C:\Users\Eagha\Desktop\CodeLessons\P201\24 - C# serialization,file\P201_C-_Serialization\12112021\12112021\bin\Debug\netcoreapp3.1\12112021.runtimeconfig.json
+C:\Users\Eagha\Desktop\CodeLessons\P201\24 - C# serialization,file\P201_C-_Serialization\12112021\12112021\bin\Debug\netcoreapp3.1\12112021.runtimeconfig.dev.json
+C:\Users\Eagha\Desktop\CodeLessons\P201\24 - C# serialization,file\P201_C-_Serialization\12112021\12112021\bin\Debug\netcoreapp3.1\12112021.dll
+C:\Users\Eagha\Desktop\CodeLessons\P201\24 - C# serialization,file\P201_C-_Serialization\12112021\12112021\bin\Debug\netcoreapp3.1\12112021.pdb
+C:\Users\Eagha\Desktop\CodeLessons\P201\24 - C# serialization,file\P201_C-_Serialization\12112021\12112021\obj\Debug\netcoreapp3.1\12112021.csproj.AssemblyReference.cache
+C:\Users\Eagha\Desktop\CodeLessons\P201\24 - C# serialization,file\P201_C-_Serialization\12112021\12112021\obj\Debug\netcoreapp3.1\12112021.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Eagha\Desktop\CodeLessons\P201\24 - C# serialization,file\P201_C-_Serialization\12112021\12112021\obj\Debug\netcoreapp3.1\12112021.AssemblyInfoInputs.cache
+C:\Users\Eagha\Desktop\CodeLessons\P201\24 - C# serialization,file\P201_C-_Serialization\12112021\12112021\obj\Debug\netcoreapp3.1\12112021.AssemblyInfo.cs
+C:\Users\Eagha\Desktop\CodeLessons\P201\24 - C# serialization,file\P201_C-_Serialization\12112021\12112021\obj\Debug\netcoreapp3.1\12112021.csproj.CoreCompileInputs.cache
+C:\Users\Eagha\Desktop\CodeLessons\P201\24 - C# serialization,file\P201_C-_Serialization\12112021\12112021\obj\Debug\netcoreapp3.1\12112021.dll
+C:\Users\Eagha\Desktop\CodeLessons\P201\24 - C# serialization,file\P201_C-_Serialization\12112021\12112021\obj\Debug\netcoreapp3.1\12112021.pdb
+C:\Users\Eagha\Desktop\CodeLessons\P201\24 - C# serialization,file\P201_C-_Serialization\12112021\12112021\obj\Debug\netcoreapp3.1\12112021.genruntimeconfig.cache

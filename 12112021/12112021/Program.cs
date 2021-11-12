@@ -2,6 +2,7 @@
 using System.IO;
 using System.Runtime.Serialization.Formatters.Binary;
 using System.Threading;
+using System.Xml.Serialization;
 
 namespace _12112021
 {
@@ -80,20 +81,35 @@ namespace _12112021
                 }
             }
 
-
             Console.WriteLine("\n===========================================\n");
 
-            //User user = new User
-            //{
-            //    Name = "Hikmet",
-            //    Surname = "Abbasov",
-            //    Age = 90
-            //};
+            User user = new User
+            {
+                Name = "Hikmet",
+                Surname = "Abbasov",
+                Age = 90
+            };
 
+            //binary serialization
             //SerializeBinary(user);
 
-            User existUser = DeserializeBinary();
+            //binary deserializtion
+            //User existUser = DeserializeBinary();
+            //Console.WriteLine(existUser);
+
+            //serialize xml
+            //SerializeXml(user);
+
+            //deserialize xml
+            User existUser = DeserializeXml();
             Console.WriteLine(existUser);
+
+            FileStream stream = new FileStream(@"C:\Users\Eagha\Desktop\User.doc", FileMode.Create);
+
+            string text = "Hello, World";
+            var textBuf = System.Text.Encoding.UTF8.GetBytes(text);
+            stream.Write(textBuf);
+            stream.Close();
         }
 
         public static void SerializeBinary(User user)
@@ -109,6 +125,29 @@ namespace _12112021
             BinaryFormatter bf = new BinaryFormatter();
 
             var data = (User)bf.Deserialize(stream);
+            return data;
+        }
+
+        public static void SerializeXml(User user)
+        {
+            XmlSerializer serializer = new XmlSerializer(typeof(User));
+            var stream = new FileStream(@"C:\Users\Eagha\Desktop\User.xml", FileMode.Create);
+
+            using (TextWriter tw = new StreamWriter(stream))
+            {
+                serializer.Serialize(tw, user);
+            }
+        } 
+
+        public static User DeserializeXml()
+        {
+            XmlSerializer serializer = new XmlSerializer(typeof(User));
+            var stream = new FileStream(@"C:\Users\Eagha\Desktop\User.xml", FileMode.Open);
+
+            TextReader tr = new StreamReader(stream);
+            var data = (User)serializer.Deserialize(tr);
+            tr.Close();
+
             return data;
         }
     }

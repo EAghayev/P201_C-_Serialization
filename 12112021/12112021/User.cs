@@ -6,7 +6,7 @@ using System.Text;
 namespace _12112021
 {
     [Serializable]
-    class User:ISerializable
+    public class User:ISerializable
     {
         public string Name;
         public string Surname;
